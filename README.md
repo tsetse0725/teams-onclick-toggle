@@ -2,12 +2,19 @@ Team Posts Feed (React UI Component Project) 👥📝
 
 This project is a social-style team feed built using React.Each post includes a profile, title, content (image or code), interactive icons, and reply sections.
 
-## 🛠 Technologies Used
+🔗 Live Demo
 
-- React (JSX components)
-- JavaScript (ES6+)
-- CSS3 (modular or inline)
-- Lucide icons (`lucide-react` package)
+🔢 Live: https://teams-onclick-toggle.vercel.app
+
+🛠 Technologies Used
+
+React (JSX components)
+
+JavaScript (ES6+)
+
+CSS3 (modular or inline)
+
+Lucide icons (lucide-react package)
 
 🌟 Features
 
@@ -35,10 +42,57 @@ Conditionally render different types of content
 
 Practice structuring reusable React components
 
-## 🧪 How to Run
+🧪 How to Run
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-   ```
+Clone this repository:
+
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+Open http://localhost:3000 in your browser
+
+🔔 Icons (Lucide React)
+
+This project uses modern icons from lucide-react for visual elements like the vertical dots menu, reaction icons, etc.
+
+✅ Installation
+
+If not already installed, run:
+
+npm install lucide-react
+
+Or using Yarn:
+
+yarn add lucide-react
+
+🚀 Usage
+
+Import the icons you need in your components like this:
+
+import { MoreVertical, Heart, Smile } from "lucide-react";
+
+function PostFooter() {
+return (
+<div>
+<MoreVertical size={20} />
+<Heart size={20} />
+<Smile size={20} />
+</div>
+);
+}
+
+You can customize size, color, stroke width, and more.See full icon list at 👉 lucide.dev/icons
+
+📌 Status
+
+🔧 Work in Progress🗓️ Last updated: April 2025
+
+Made with 💻 by Tsetsen
