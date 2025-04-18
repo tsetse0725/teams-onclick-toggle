@@ -4,7 +4,9 @@ This project is a social-style team feed built using React.Each post includes a 
 
 🔗 Live Demo
 
-🔢 Live: https://teams-onclick-toggle.vercel.app
+🌐 **Live:** https://teams-onclick-toggle.vercel.app
+
+![Project Preview](https://your-image-link.com/screenshot.png)
 
 🛠 Technologies Used
 
@@ -81,6 +83,7 @@ import { MoreVertical, Heart, Smile } from "lucide-react";
 
 function PostFooter() {
 return (
+
 <div>
 <MoreVertical size={20} />
 <Heart size={20} />
