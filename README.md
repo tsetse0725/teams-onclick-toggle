@@ -6,7 +6,7 @@ This project is a social-style team feed built using React.Each post includes a 
 
 🌐 **Live:** https://teams-onclick-toggle.vercel.app
 
-![Project Preview](https://your-image-link.com/screenshot.png)
+![Project Preview](./public/preview.JPG)
 
 🛠 Technologies Used
 
