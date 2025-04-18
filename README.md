@@ -7,7 +7,7 @@ Each post includes a profile, title, content (image or code), interactive icons,
 - React (JSX components)
 - JavaScript (ES6+)
 - CSS3 (modular or inline)
-- Font icons or emoji
+- Lucide icons (`lucide-react` package)
 
 ## 🎯 Features
 - User profile display with timestamp
@@ -25,15 +25,7 @@ This project was built as part of learning to:
 - Practice structuring reusable React components
 
 ## 🧪 How to Run
-1. Clone this repository
-2. Run `npm install`
-3. Run `npm run dev` or `npm start`
-4. Open `http://localhost:3000` in your browser
-
-## 📌 Status
-🔧 Work in Progress  
-📅 Last updated: April 2025
-
----
-
-Made with 💻 by [Tsetsen](https://github.com/tsetse0725)
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
